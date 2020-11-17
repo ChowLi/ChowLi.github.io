@@ -1,0 +1,14 @@
+/*
+    This css file contains the main items that we'd change on the Raas screens - colours, fonts etc.
+*/
+.gigya-screen-dialog-top {
+    /*background-color:#EF3035 !important;*/ /* Changes the Screen Set Dialog Top colour */
+}
+ 
+.gigya-input-submit {
+    /*background-color:#000000 !important;*/ /* Changes the Screen Set button colour */
+}
+ 
+.gigya-screen a.gigya-button, .gigya-screen.portrait div.gigya-tfa .gig-tfa-container .gigya-button.gig-tfa-phone-code-resend, .gigya-screen input[type=button], .gigya-screen.portrait div.gigya-tfa .gig-tfa-container .gig-tfa-button-container .gig-tfa-button, .gigya-screen.portrait div.gigya-tfa .gig-tfa-container .gig-tfa-button-container .gig-tfa-button-submit, .gigya-screen input[type=submit], .gigya-screen.portrait div.gigya-tfa .gig-tfa-container .gig-tfa-phone-edit-link {
+   /* background-color:#000000 !important;*/ /* Changes the Screen Set button colour */
+}
