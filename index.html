@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title> 
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>   
+        
+        <script type="text/javascript" lang="javascript" src="js/demo.js"></script> <!--main demo functionality-->
+        <script type="text/javascript" src="https://cdns.gigya.com/js/gigya.js?apiKey=3_n2yizW6AGFX57wk4zK38FV9mJIg-kbpfCSiB9HjeMDLTD9RcJWEovgVvVFcQS9Eo" </script>
+        </script>
+ 
+        <link rel="stylesheet" type="text/css" href="css/site.css"/> <!--main demo styles-->
+        <link rel="stylesheet" type="text/css" href="css/raas.css"/> <!--raas screen sets specific styles-->
+ 
+    </head>
+    <body>
+        <div>
+            <div id="topbanner" class="topbanner">
+               
+                <div id="logInLinks" class="panellinks">
+                    <script type="text/javascript" lang="javascript">
+                      document.write('<a href="#" onclick="showLogin()">Log In</a>&nbsp;|&nbsp;<a title="Register" href="#" onclick="showRegister()">Register</a>');
+                    </script>
+                </div>
+                <div id="loggedInLinks" class="panellinks">
+                    <div style="display: inline-block; vertical-align: middle;"><a href="#" onclick="gigya.accounts.showScreenSet({ screenSet: 'Default-ProfileUpdate'});"><span id="profilePic" class="profilePic" style="display: inline-block; vertical-align: middle;"></span></a>
+                        <span id="welcome">Welcome</span>&nbsp;|&nbsp;<a href="#" onclick="logout();">Logout</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Page Content -->
+                <div id="content" class="content">
+                    <div id="demoheader" class="demoheader"> 
+                    </div>
+                    <div id="demobody" class="demobody">
+                    </div>
+                    <div id="demofooter" class="demofooter">
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </body>
+</html>
