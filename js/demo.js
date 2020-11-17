@@ -41,7 +41,7 @@ function showLogin() {
  
   
      params = {
-        screenSet: 'Default-RegistrationLogin'
+        screenSet: 'ChowLi-Registration Login'
         , enabledProviders: socialProviders
     }
     gigya.accounts.showScreenSet(params);
@@ -54,7 +54,7 @@ function showRegister() {
  
   
     params = {
-        screenSet: 'Default-RegistrationLogin'
+        screenSet: 'ChowLi-Registration Login'
         , startScreen: 'gigya-register-screen'
         , enabledProviders: socialProviders
         , "onBeforeSubmit" : checkSubmit
