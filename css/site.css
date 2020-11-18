@@ -45,24 +45,24 @@ a {
  
 .demoheader {
     width: 980px;
-    background-color:#FFF;
-    /*background-image: url('../images/header.jpg');*/
+    /*background-color:#FFF;
+    background-image: url('../images/header.jpg');*/
     background-repeat: no-repeat;
     min-height:60px;
 }
  
 .demobody {
     width: 980px;
-    background-color:#FFF;
-    /*background-image: url('../images/body.jpg');*/
+    /*background-color:#FFF;
+    background-image: url('../images/body.jpg');*/
     background-repeat: no-repeat;
     min-height:700px;
 }
  
 .demofooter {
     width: 980px;
-    background-color:#FFF;
-    /*background-image: url('../images/footer.jpg');*/
+    /*background-color:#FFF;
+    background-image: url('../images/footer.jpg');*/
     background-repeat: no-repeat;
     min-height:60px;
 }
