@@ -6,6 +6,15 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+   min-height: 100%;
+   background-image: url('https://i.ibb.co/GFHjzYX/medicure-website.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
  
 .topbanner {
     padding: 0px;
