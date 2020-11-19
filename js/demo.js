@@ -37,12 +37,12 @@ function setLoggedInState(response) {
  
 function showLogin() {
     var params;
-    var socialProviders = 'facebook,twitter,googleplus';
+    /*var socialProviders = 'facebook,twitter,googleplus';*/
  
   
      params = {
         screenSet: 'ChowLi-Registration Login'
-        , enabledProviders: socialProviders
+      /*  , enabledProviders: socialProviders*/
     }
     gigya.accounts.showScreenSet(params);
 }
@@ -50,13 +50,13 @@ function showLogin() {
 function showRegister() {
     var params;
  
-    var socialProviders = 'facebook,twitter,googleplus';
+    /*var socialProviders = 'facebook,twitter,googleplus';*/
  
   
     params = {
         screenSet: 'ChowLi-Registration Login'
         , startScreen: 'gigya-register-screen'
-        , enabledProviders: socialProviders
+    /*    , enabledProviders: socialProviders*/
         , "onBeforeSubmit" : checkSubmit
     }
     gigya.accounts.showScreenSet(params);
